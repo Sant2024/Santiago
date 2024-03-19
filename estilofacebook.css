@@ -1,54 +1,101 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
-    background: rgb(251, 254, 255);
     font-family: Arial, Helvetica, sans-serif;
 
 }
-.cajalogin{
+
+.cajalogin {
     display: grid;
     grid-template-columns: repeat(2, 50%);
+    background-color: #f0f2f5;
+    height: 100vh;
+
 
 
 }
 
-.caja1{
-    padding-left: 30%
-    translateX(-15px);
+
+.caja1 {
+    padding-left: 30% translateX(-15px);
 }
 
-.Margen{
+.Margen {
     margin-top: 250px;
     padding-left: 15%;
 }
 
-.Margen img{
+.Margen img {
     display: flex;
     width: 50%;
     transform: translateX(-7px);
 }
 
-.formulario{
-    padding: 20px;
-    border-radius:5% ;
-  
-}
-
-.cajalogin2{
-    margin-top: 300px;
+.formulario {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 10px 20px 24px 20px ;
+    background-color: #ffffff;
+    border-radius: 8px;
+
+}
+.formulario input{
+    padding: 10px 15px;
+    margin: 6px 0;
+    border-radius: 6px;
+    font-size: 17px;
+
+
+}
+
+.btn{
+    padding: 10px 15px;
+margin: 6px 0;
+border-radius: 6px;
+font-size: 20px;
+color: #ffffff;
+}
+
+.botonuno{
+    background-color: #0866ff;
+}
+
+.olvidarcontra{
+    text-align: center;
+}
+.olvidar a{
+    text-decoration: none;
+
+}
+
+.olvidar a:hover{
+    text-decoration: underline;
+
+}
+.cajalogin2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja-formulario {
+    width: 396px;
+    background-color: #f0f2f5;
+    
 }
 
 
-.facebook{
-    
+
+.facebook {
+
     width: 800px;
     height: 106px;
 
 }
-.subtitulo{
+
+.subtitulo {
     font-weight: normal;
     line-height: 32px;
     width: 500px;
@@ -56,27 +103,34 @@
 
 
 }
-.margin{
+
+.margin {
     margin-top: 250px;
-    padding:0, 50%;
-}
-.idiomascaja{
-    display: flex;
-    flex-direction: row;
-
+    padding: 0, 50%;
 }
 
-.x{
+.idiomascaja {
     display: flex;
     justify-content: center;
 
-    
 }
 
-input{
+.x {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+input {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
 
-    
+
+}
+
+.listaidiomas {
+    display: flex;
+    flex-direction: row;
 }
